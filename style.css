@@ -1,0 +1,148 @@
+body{
+    background-image: url("images/bgimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:102%;
+    position: fixed;
+}
+#navbar{
+    display: flex;
+    background: linear-gradient(0.25turn,#673AB7,#1E88E5,#039BE5,#4DD0E1,#80DEEA);
+    padding:20px 0px 20px 0px;
+    margin-top: -10px;
+    margin-left: -8px;   
+}
+#navbar div{
+    flex:2;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#heading{
+    height:150px;
+    width:30%;
+    font-size: 20px;
+    text-align: center;
+    margin:auto;
+    line-height: 30px;
+}
+#heading h1{
+    color:white;
+    font-size: 50px;
+    font-weight: lighter;
+}
+#heading div:nth-child(3){
+    height:30px;
+    width:150px;
+    margin: auto;
+    background: white;
+    border:1px solid black;
+}
+
+.popup{
+    background: white; 
+    width: 102%;
+    margin:-10px 0px 0px -10px;
+    visibility: hidden;
+    transition-timing-function: ease-in;
+    transition : 4s;
+    position: absolute; 
+    top:-400px;
+}
+.popup h1{
+    font-size: 50px;    
+}
+
+#discountBox{
+    display:flex;     
+}
+.disBox{
+    width:250px;
+    height:200px;
+    border-radius: 11px;
+    background: #fafafa;
+    box-shadow:  5px 5px 17px #e1e1e1, 
+                -5px -5px 17px #ffffff;
+    font-weight: bolder;
+    margin: 20px;
+}
+.disBox :nth-child(2){
+    font-size:30px;
+    line-height: 14px;
+}
+.disBox :nth-child(3){
+    font-size:20px;
+    margin-top: 30px;
+}
+.disBox :nth-child(4){
+    color:grey;
+    font-size: 12px;
+    font-weight: lighter;
+}
+.disBox span{
+    font-size: 15px;
+}
+.disBox :nth-child(5){
+    width:150px;
+    margin:30px 0px 0px 10px;
+    text-align: center;
+    padding:10px;
+    border-radius: 30px;
+    background:linear-gradient(0.25turn,#673AB7,#1E88E5,#039BE5,#4DD0E1,#80DEEA) ;
+}
+
+#close{
+    height:200px;
+    width:180px;
+    margin-right: 10px;
+    display:flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+#disTest{
+    border:1px solid #673AB7;
+    color:#673AB7;
+}
+
+.show{   
+    width: 102%;
+    background: white; 
+    position:absolute;
+    top:-300px; 
+    transform:translateY(300px);   
+    transition-timing-function: ease-in;
+    transition: 3s;
+    margin:-10px 0px 0px -10px;    
+}
+
+#form-data{
+    height:400px;
+    width:400px;
+    margin:auto;
+    background:linear-gradient(0.25turn,#673AB7,#1E88E5,#039BE5,#4DD0E1,#80DEEA);
+    margin-top: 100px;
+    padding:20px;
+}
+input{
+    width:98%;
+    padding: 7px;
+    border-radius: 5px;
+    margin:10px 0px 10px 0px;
+    border: 1px solid grey;
+}
+.disBox button{
+    border:none
+}
+.label{
+    margin-top: 10px;
+}
+
+#privacy{
+    font-size: 12px;
+    margin-top: -10px;
+    color:darkgrey
+}
+#privacy span{
+    color:black;
+}
+
