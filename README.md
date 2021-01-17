@@ -9,7 +9,7 @@
 <br><br>
 <div><img src="ImagesForReadme/navigator.JPG"/></div>
 <br><br>
-<div>It copies the value of the button and wite it to the clipboard. We can add the copied code to the text box</div>
+<div>It copies the value of the button and write it to the clipboard. We can add the copied code to the text box</div>
 
 <h1>Assignment 2</h1>
 <div>Nunjucks => A Javascript Template Engine</div>
