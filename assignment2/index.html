@@ -97,6 +97,13 @@
             5. Print CatchPhrase(I.e. company -> catchPhrase) which will contain max 15 letters.
             
             <br><br>
+                {% for item in data %}
+                    {% set len = item.company.catchPhrase.length %}
+                    {% if len > 15 %}
+                        <li>{{item.company.catchPhrase}}</li>
+                    {% endif %}
+                {% endfor %}
+            <br><br>
 
             
             
